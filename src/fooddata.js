@@ -1,4 +1,4 @@
-const coffee=[
+const coffees=[
     {
         name:"IRISH LATTE",
         varients:["small","medium","large"],
@@ -11,10 +11,10 @@ const coffee=[
         ],
         category:"hot beverage",
         image:"https://tse2.mm.bing.net/th?id=OIP.OvGFfMI08Gw42YjfpM8LtQHaE8&pid=Api&P=0&h=220",
-        description:""
+        description:"Experience the warmth of Irish Latte—smooth espresso, creamy steamed milk, and a hint of Irish cream for a delightful treat."
     },
     {
-        name:"IRISH LATTE",
+        name:"ESPRESSO",
         varients:["small","medium","large"],
         prices:[
             {
@@ -24,11 +24,11 @@ const coffee=[
             },
         ],
         category:"hot beverage",
-        image:"",
-        description:""
+        image:"https://tse4.mm.bing.net/th?id=OIP.sjkwtF6Q1tmhvrwu9VK8XwHaHa&pid=Api&P=0&h=220",
+        description:"Indulge in our rich, velvety espresso—crafted from the finest beans, delivering an intense and satisfying coffee experience"
     },
     {
-        name:"IRISH LATTE",
+        name:"CAFE AMERICANO",
         varients:["small","medium","large"],
         prices:[
             {
@@ -38,11 +38,11 @@ const coffee=[
             },
         ],
         category:"hot beverage",
-        image:"",
-        description:""
+        image:"https://tse3.mm.bing.net/th?id=OIP.SkDOunO8CzS29tb4tOecpgHaE8&pid=Api&P=0&h=220",
+        description:"Savor the simplicity of Cafe Americano—a bold, black coffee made by adding hot water to a rich espresso shot."
     },
     {
-        name:"IRISH LATTE",
+        name:"ICED LATTE",
         varients:["small","medium","large"],
         prices:[
             {
@@ -51,12 +51,12 @@ const coffee=[
             large:970,
             },
         ],
-        category:"hot beverage",
-        image:"",
-        description:""
+        category:"cold beverage",
+        image:"https://tse1.mm.bing.net/th?id=OIP.fGcxFbN9FfXHWuLC5e5cqAHaHY&pid=Api&P=0&h=220",
+        description:"Stay cool with our Iced Latte—smooth espresso combined with chilled milk, a perfect harmony of coffee and refreshment"
     },
     {
-        name:"IRISH LATTE",
+        name:"ICED MOCHA",
         varients:["small","medium","large"],
         prices:[
             {
@@ -65,12 +65,12 @@ const coffee=[
             large:970,
             },
         ],
-        category:"hot beverage",
-        image:"",
-        description:""
+        category:"cold beverage",
+        image:"https://tse1.mm.bing.net/th?id=OIP.bY_jaFpho3ZKQynZW5QuqQHaHa&pid=Api&P=0&h=220",
+        description:"Chill out with our Iced Mocha—refreshing blend of espresso, creamy milk, and chocolate syrup over ice, a delightful summer indulgence."
     },
     {
-        name:"IRISH LATTE",
+        name:"ICED CHOCOLATE",
         varients:["small","medium","large"],
         prices:[
             {
@@ -79,10 +79,10 @@ const coffee=[
             large:970,
             },
         ],
-        category:"hot beverage",
-        image:"",
-        description:""
+        category:"cold beverage",
+        image:"https://tse2.mm.bing.net/th?id=OIP.eCNTf_g6xk3ApS7FEFy05gHaLE&pid=Api&P=0&h=220",
+        description:"Beat the heat with our Iced Chocolate—creamy and indulgent, a delightful blend of rich chocolate and cold milk."
     }
 ]
 
-export default coffee
+export default coffees
